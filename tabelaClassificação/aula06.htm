@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Imersão Dev - Aula 06 </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<h1>Tabela de classificação</h1>
+			<h2> Vitória = +3, Empate = +1, Derrota = -1 </h2>
+
+			<div class="cadastro">
+				  <div>
+					<div> 
+						<label>Nome</label>
+					</div>
+					<div>
+						<input id="nome"/>
+					</div>
+				  </div>
+				  <div>
+					<div> 
+					  <label>URL da Imagem</label>
+					</div>
+					<div>
+					  <input id="urlImage"/>
+					</div>
+				  </div>
+
+				  <div>
+					  <button onClick="adicionarNovoJogador()" class="btn-add-player">
+						  <img src="https://images.pexels.com/photos/712850/pexels-photo-712850.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+					  </button>
+				  </div>
+			</div>
+
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th>Imagem</th>
+						<th>Nome</th>
+						<th>Vitórias</th>
+						<th>Empates</th>
+						<th>Derrotas</th>
+						<th>Pontos</th>
+						<th id="vazio"></th>
+						<th id="vazio">Ações</th>
+						<th id="vazio"></th>
+						<th id="vazio">
+							
+						</th>
+					</tr>
+				</thead>
+				<tbody id="tabelaJogadores">
+	<!-- 			<tr>
+						  <td>Paulo</td>
+						  <td>2</td>
+						  <td>1</td>
+						  <td>1</td>
+						  <td>7</td>
+						  <td><button onClick="adicionarVitoria()">Vitória</button></td>
+						  <td><button onClick="adicionarEmpate()">Empate</button></td>
+						  <td><button onClick="adicionarDerrota()">Derrota</button></td>
+					</tr>
+					<tr>
+						<td>Rafa</td>
+						<td>1</td>
+						<td>4</td>
+						<td>2</td>
+						<td>7</td>
+						<td><button onClick="adicionarVitoria()">Vitória</button></td>
+						<td><button onClick="adicionarEmpate()">Empate</button></td>
+						<td><button onClick="adicionarDerrota()">Derrota</button></td>
+					</tr> -->
+				</tbody>
+			</table>
+			<br/>
+			<button2 onclick="javascript:reset();" id="reset">
+				Reiniciar
+    		</button2>
+			<button3 onclick="javascript:resetDados();" id="resetDados">
+				Apagar tudo
+    		</button3>
+		</div>
+	</body>
+</html>

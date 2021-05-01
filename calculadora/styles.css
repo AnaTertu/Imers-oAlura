@@ -1,0 +1,58 @@
+body {
+  font-family: "Dela Gothic One", cursive;
+  min-height: 854px;
+  background-image: url("https://images.pexels.com/photos/5184951/pexels-photo-5184951.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-color: rgb(212, 131, 131);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: #ffffff;
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  top: 122px;
+  left: calc(22% - 92.5px);
+  width: 400px;
+  text-align: center;
+  margin-top: 320px;
+}
+
+.container {
+  margin-top: 222px;
+  margin-left: 240px;
+  padding: 40px;
+  height: 80vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 3px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 3px;
+}
+
+.page-logo {
+  width: 100px;
+}
+
+.calculadora {
+  width: 464px;
+  height: 460px;
+  /* background-image: url("https://images.pexels.com/photos/5184951/pexels-photo-5184951.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
